@@ -4,5 +4,6 @@ class StatpagesController < ApplicationController
   end
 
   def help
+    
   end
 end
