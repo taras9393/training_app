@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "home" => "statpages#home"
   get "help" => "statpages#help"
   get "about" => "statpages#about"
+  get "contacts" => "statpages#contact"
 end

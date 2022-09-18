@@ -10,4 +10,8 @@ class StatpagesController < ApplicationController
   def about
 
   end
+
+  def contact
+    @numbers = [545687, 65456, 45276, 544517, 56165, 77145]
+  end
 end
