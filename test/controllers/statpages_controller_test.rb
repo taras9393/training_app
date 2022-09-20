@@ -22,7 +22,7 @@ class StatpagesControllerTest < ActionDispatch::IntegrationTest
   test "should get contacts" do
     get contacts_url
     assert_response :success
-    #assert_select "title", "About | Ruby on Rails Tutorial Sample App"
+    assert_select "title", "Contacts | Ruby on Rails Tutorial Sample App"
   end
-  
+
 end
